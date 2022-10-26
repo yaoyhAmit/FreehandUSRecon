@@ -26,3 +26,20 @@ If you find this work helpful to you, please cite our paper in your work:
 }
 ```
 
+## Create Environment
+
+```shell
+conda create -n freehandus python=3.7
+
+conda activate freehandus
+
+pip install torch==1.5.0+cu92 torchvision==0.6.0+cu92 -f https://download.pytorch.org/whl/torch_stable.html
+
+conda install -c conda-forge OpenCV
+
+conda install -c conda-forge imgaug
+
+conda install -c conda-forge numpy-stl
+
+conda install -c simpleitk simpleitk
+```
